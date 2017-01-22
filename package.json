@@ -1,0 +1,13 @@
+{
+  "scripts": {
+      "build": "katatema build",
+      "serve": "katatema serve",
+      "deploy": "npm run build && gh-pages --dist docs"
+  },
+  "dependencies": {
+    "katatema": "^0.1.7"
+  },
+  "devDependencies": {
+    "gh-pages": "^0.12.0"
+  }
+}
