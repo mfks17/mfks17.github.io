@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "gh-pages": "^0.12.0",
+    "katatema": "^0.1.7"
+  },
+  "scripts": {
+    "build": "katatema build",
+    "deploy": "yarn run build && gh-pages --branch master --dist docs",
+    "serve": "katatema serve"
+  }
+}
